@@ -1,0 +1,6 @@
+@ASP_LAB_7_HostAddress = http://localhost:5252
+
+GET {{ASP_LAB_7_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

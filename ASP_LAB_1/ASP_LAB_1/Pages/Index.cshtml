@@ -1,0 +1,54 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+
+    <form method="post">
+        <div>
+            <label for="inputText">Введіть текст:</label>
+            <input type="text" id="inputText" name="InputText" />
+            <span asp-validation-for="InputText" class="text-danger"></span>
+        </div>
+        </br>
+        <div>
+            <label for="inputNumber">Введіть число:</label>
+            <input type="number" id="inputNumber" name="InputNumber" />
+            <span asp-validation-for="InputNumber" class="text-danger"></span>
+        </div>
+        </br>
+        <div>
+            <label for="inputDate">Введіть дату:</label>
+            <input type="date" id="inputDate" name="InputDate" />
+            <span asp-validation-for="InputDate" class="text-danger"></span>
+        </div>
+        </br>
+        <div>
+            <label for="inputEmail">Введіть Email:</label>
+            <input type="email" id="inputEmail" name="InputEmail" />
+            <span asp-validation-for="InputEmail" class="text-danger"></span>
+        </div>
+        </br>
+        <div>
+            <label for="inputUrl">Введіть URL:</label>
+            <input type="url" id="inputUrl" name="InputUrl" />
+            <span asp-validation-for="InputUrl" class="text-danger"></span>
+        </div>
+        </br>
+        <div>
+            <button type="submit">Відправити</button>
+        </div>
+    </form>
+
+    @if (Model.IsSubmitted)
+    {
+        <h3>Введені дані:</h3>
+        <p><strong>Текст:</strong> @Model.InputText</p>
+        <p><strong>Число:</strong> @Model.InputNumber</p>
+        <p><strong>Дата:</strong> @Model.InputDate.ToString("yyyy-MM-dd")</p>
+        <p><strong>Email:</strong> @Model.InputEmail</p>
+        <p><strong>URL:</strong> @Model.InputUrl</p>
+    }
+</div>

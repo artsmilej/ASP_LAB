@@ -1,0 +1,166 @@
+﻿@page
+@model ASP_LAB_3.Pages.IndexModel
+@using System.Data;
+@{
+    ViewData["Title"] = "Головна сторінка";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Лабораторна робота 3 та 4</h1>
+</div>
+
+<h2>Книги</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва книги</th>
+            <th>Ім'я автора</th>
+            <th>Назва жанру</th>
+            <th>Ціна</th>
+            <th>Дата написання</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Books != null && Model.Books.Rows.Count > 0)
+        {
+            foreach (DataRow row in Model.Books.Rows)
+            {
+                <tr>
+                    <td>@row["Назва_книги"]</td>
+                    <td>@row["Ім_я_автора"]</td>
+                    <td>@row["Назва_жанру"]</td>
+                    <td>@row["Ціна"]</td>
+                    <td>@row["Дата_написання"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Немає доступних книг.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Автори</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я автора</th>
+            <th>Дата народження</th>
+            <th>Дата смерті</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Authors != null && Model.Authors.Rows.Count > 0)
+        {
+            foreach (DataRow row in Model.Authors.Rows)
+            {
+                <tr>
+                    <td>@row["Ім_я_автора"]</td>
+                    <td>@row["Дата_народження"]</td>
+                    <td>@row["Дата_смерті"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="3">Немає доступних авторів.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Жанри</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Назва жанру</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Genres != null && Model.Genres.Rows.Count > 0)
+        {
+            foreach (DataRow row in Model.Genres.Rows)
+            {
+                <tr>
+                    <td>@row["Назва_жанру"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="1">Немає доступних жанрів.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Клієнти</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я клієнта</th>
+            <th>Електронна пошта</th>
+            <th>Телефон</th>
+            <th>Адреса</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Customers != null && Model.Customers.Rows.Count > 0)
+        {
+            foreach (DataRow row in Model.Customers.Rows)
+            {
+                <tr>
+                    <td>@row["Ім_я_клієнта"]</td>
+                    <td>@row["Електронна_пошта"]</td>
+                    <td>@row["Телефон"]</td>
+                    <td>@row["Адреса"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="4">Немає доступних клієнтів.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<h2>Продажі</h2>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я клієнта</th>
+            <th>Назва книги</th>
+            <th>Кількість</th>
+            <th>Ціна</th>
+            <th>Дата продажу</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.Sales != null && Model.Sales.Rows.Count > 0)
+        {
+            foreach (DataRow row in Model.Sales.Rows)
+            {
+                <tr>
+                    <td>@row["Ім_я_клієнта"]</td>
+                    <td>@row["Назва_книги"]</td>
+                    <td>@row["Кількість"]</td>
+                    <td>@row["Ціна"]</td>
+                    <td>@row["Дата_продажу"]</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="5">Немає доступних продажів.</td>
+            </tr>
+        }
+    </tbody>
+</table>

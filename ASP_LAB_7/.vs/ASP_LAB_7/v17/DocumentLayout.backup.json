@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|c:\\users\\oneta\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\asp_lab_7\\asp_lab_7\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|solutionrelative:asp_lab_7\\controllers\\bookscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|c:\\users\\oneta\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\asp_lab_7\\asp_lab_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|solutionrelative:asp_lab_7\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|c:\\users\\oneta\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\asp_lab_7\\asp_lab_7\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|solutionrelative:asp_lab_7\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|c:\\users\\oneta\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\asp_lab_7\\asp_lab_7\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|solutionrelative:asp_lab_7\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|c:\\users\\oneta\\onedrive\\\u0440\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\asp_lab_7\\asp_lab_7\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A48044CD-0DEE-4F63-8E44-B0C45BDE96AD}|ASP_LAB_7\\ASP_LAB_7.csproj|solutionrelative:asp_lab_7\\models\\books.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "ASP_LAB_7\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\WeatherForecast.cs",
+              "RelativeToolTip": "ASP_LAB_7\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:48:53.685Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Program.cs",
+              "RelativeDocumentMoniker": "ASP_LAB_7\\Program.cs",
+              "ToolTip": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Program.cs",
+              "RelativeToolTip": "ASP_LAB_7\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:47:57.842Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BooksController.cs",
+              "DocumentMoniker": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Controllers\\BooksController.cs",
+              "RelativeDocumentMoniker": "ASP_LAB_7\\Controllers\\BooksController.cs",
+              "ToolTip": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Controllers\\BooksController.cs",
+              "RelativeToolTip": "ASP_LAB_7\\Controllers\\BooksController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:44:31.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WeatherForecastController.cs",
+              "DocumentMoniker": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Controllers\\WeatherForecastController.cs",
+              "RelativeDocumentMoniker": "ASP_LAB_7\\Controllers\\WeatherForecastController.cs",
+              "ToolTip": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Controllers\\WeatherForecastController.cs",
+              "RelativeToolTip": "ASP_LAB_7\\Controllers\\WeatherForecastController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:42:04.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Books.cs",
+              "DocumentMoniker": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Models\\Books.cs",
+              "RelativeDocumentMoniker": "ASP_LAB_7\\Models\\Books.cs",
+              "ToolTip": "C:\\Users\\oneta\\OneDrive\\\u0420\u043E\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u0456\u043B\\ASP_LAB_7\\ASP_LAB_7\\Models\\Books.cs",
+              "RelativeToolTip": "ASP_LAB_7\\Models\\Books.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-12T12:41:07.552Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

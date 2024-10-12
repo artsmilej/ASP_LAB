@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Books>
+	<Book>
+		<Title>1984</Title>
+		<Author>Джордж Орвелл</Author>
+		<Genre>Фантастика</Genre>
+		<Price>20.00</Price>
+		<WritingDate>1949-06-08</WritingDate>
+	</Book>
+	<Book>
+		<Title>Я, робот</Title>
+		<Author>Айзек Азімов</Author>
+		<Genre>Фантастика</Genre>
+		<Price>25.00</Price>
+		<WritingDate>1950-12-01</WritingDate>
+	</Book>
+</Books>

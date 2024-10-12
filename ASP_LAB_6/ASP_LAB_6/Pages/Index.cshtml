@@ -1,0 +1,44 @@
+﻿@page
+@model ASP_LAB_4.Pages.IndexModel
+
+<h1>Список Книг</h1>
+
+<form method="post" asp-page-handler="AddBook">
+    <input type="text" name="title" placeholder="Назва книги" required />
+    <input type="text" name="author" placeholder="Автор" required />
+    <input type="text" name="genre" placeholder="Жанр" required />
+    <input type="number" step="0.01" name="price" placeholder="Ціна" required />
+    <input type="date" name="writingDate" placeholder="Дата написання" required />
+    <button type="submit">Додати книгу</button>
+</form>
+
+<table>
+    <thead>
+        <tr>
+            <th>Назва</th>
+            <th>Автор</th>
+            <th>Жанр</th>
+            <th>Ціна</th>
+            <th>Дата написання</th>
+            <th>Дії</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var book in Model.Books)
+        {
+            <tr>
+                <td>@book.Title</td>
+                <td>@book.Author</td>
+                <td>@book.Genre</td>
+                <td>@book.Price</td>
+                <td>@book.WritingDate.ToString("yyyy-MM-dd")</td>
+                <td>
+                    <form method="post" asp-page-handler="RemoveBook">
+                        <input type="hidden" name="title" value="@book.Title" />
+                        <button type="submit">Видалити</button>
+                    </form>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
